@@ -4,8 +4,8 @@ import random
 
 with open ("./libretaDeDirecciones/addresses.csv", "a") as csvfile:
     fieldnames = ["nombre ", "direccion ","telefono ", "fechaRegistro ", "ID " ]
-    writer = csv.DictWriter (csvfile, fieldnames = fieldnames)
     
+    writer = csv.DictWriter (csvfile, fieldnames = fieldnames)
     writer.writeheader()
     writer.writerow({   
                         "nombre ": input("ingrese su nombre:  "),

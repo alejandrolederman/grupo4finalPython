@@ -8,10 +8,10 @@ if frase == "abra cadabra" or frase =="show time" or frase =="the end":
     
 else:
     
-    for i in range (len(frase.split(' ')) ):
-        notas.write[i]
+    # for i in range (len(frase.split(' ')) ):
+    #     notas.write[i]
         
     result = len(frase.split(' '))    
     print(frase.split(' '))
 
-    print("There are " + str(result) + " words.")
+    print("en total hay " + str(result) + " palabras.")
