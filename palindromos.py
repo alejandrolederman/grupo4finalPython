@@ -8,3 +8,6 @@ while (i>0):
     palabraInvertida=palabraInvertida+palabra[i]
 if(palabra==palabraInvertida):
     print("es palindromo")
+
+else:
+    print("no es un palindromo")
