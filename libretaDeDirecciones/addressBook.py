@@ -1,3 +1,5 @@
+# - No usar la libreria 'asyncio.windows_events', ya que solo funciona en windows. En su lugar puede usar la libreria 'uuid'
+
 from asyncio.windows_events import INFINITE
 import csv
 import random
