@@ -17,9 +17,11 @@ def generate_random_password():
 	characters_count = alphabets_count + digits_count + special_characters_count
 
 	if characters_count > length:
-		print("los caracteres selecionados superan el largo de la contraseña")
-		return
-
+		return print("los caracteres selecionados superan el largo de la contraseña")
+  		
+	elif length == 0:
+		length = 16
+		
 	password = []
 
 	for i in range(alphabets_count):
@@ -30,7 +32,7 @@ def generate_random_password():
 
 	for i in range(special_characters_count):
 		password.append(random.choice(special_characters))
-
+       
 	if characters_count < length:
 		random.shuffle(characters)
 		for i in range(length - characters_count):

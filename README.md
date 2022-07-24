@@ -59,7 +59,7 @@ registro).
 
 # Correcciones
 
-- Ejercicio __'generador de contraseñas'__: El generador debe preguntar al usuario si quiere que la contraseña tenga mayusculas, minusculas, numeros y/o caracteres especiales, y la longitud. Si el usuario decide no ingresar el programa deberia continuar y darle una contraseña de 16 de longitud con letras y numeros.
+- Ejercicio __'generador de contraseñas'__: El generador debe preguntar al usuario si quiere que la contraseña tenga mayusculas, minusculas, numeros y/o caracteres especiales, y la longitud. Si el usuario decide no ingresar el programa deberia continuar y darle una contraseña de 16 de longitud con letras y numeros. 
 - Ejercicio __'libreta de direcciones'__: No utilizar la libreria asyncio.windows_events ya que la misma solo funciona en windows
 - Ejercicio __'palindromos'__: El programa no cumple todos los requisitos del ejercicio
 - Corregir los nombres de los archivos, deben tener los nombres especificados en las consignas
