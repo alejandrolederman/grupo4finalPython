@@ -1,6 +1,5 @@
 # - No usar la libreria 'asyncio.windows_events', ya que solo funciona en windows. En su lugar puede usar la libreria 'uuid'
 
-from asyncio.windows_events import INFINITE
 import csv
 import random
 
@@ -14,7 +13,7 @@ with open ("./libretaDeDirecciones/addresses.csv", "a") as csvfile:
                         "direccion ": input("ingrese su direccion: "),
                         "telefono ": input("ingrese su telefono:  "),
                         "fechaRegistro ": input("ingrese su fechaRegistro: "),
-                        "ID ": random.randint(0 , INFINITE)
+                        "ID ": random.randint(0 , 9999999999999999)
                     })
     
 print("datos inseratdos")
