@@ -51,7 +51,7 @@ registro).
 
 # Integrantes:
 
-1. Integrante 1
+1. Alejandro -Lederman
 2. Integrante 2
 3. Integrante 3
 4. Integrante 4
