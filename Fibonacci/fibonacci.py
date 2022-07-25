@@ -1,12 +1,17 @@
 z=0
+
 while z<=0:
+    
     z=int(input("Ingrese cant.de números de Fibonacci <mayor que 0> : "))
 
 else:
+    
   a=0
   b=1
   c=1
+  
   for i in range (0,z):
+      
       print(c)
       c=a+b
       a=b
