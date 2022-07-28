@@ -52,10 +52,9 @@ registro).
 # Integrantes:
 
 1. Alejandro Lederman
-2. Integrante 2
-3. Integrante 3
-4. Integrante 4
-5. Integrante 5
+2. Silvia Juejati
+3. Jacobo
+4. Marcelo Levit
 
 # Correcciones
 
