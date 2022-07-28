@@ -1,6 +1,7 @@
 import string
 import random
 
+# debe separar mayusculas y minusculas en dos variables distintas
 alphabets = list(string.ascii_letters)
 digits = list(string.digits)
 special_characters = list("!@#$%^&*()")
@@ -8,8 +9,10 @@ characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
 def generate_random_password():
 
+	# Usar try...except para que permita al usuario no elegir una longitud, ya que se establece una contraseña por defecto
 	length = int(input("que tan larga quere que sea la contraseña?:  "))
 
+	# No debe solicitarle al usuario si quiere una cantidad sino por SI o por NO, no debe usar un "int" para este caso
 	alphabets_count = int(input("que cantidad de letras?: "))
 	digits_count = int(input("que cantidad de numeros?: "))
 	special_characters_count = int(input("que cantiad de caracteres especiales?: "))

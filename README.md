@@ -59,8 +59,7 @@ registro).
 
 # Correcciones
 
-- Ejercicio __'generador de contraseñas'__: El generador debe preguntar al usuario si quiere que la contraseña tenga mayusculas, minusculas, numeros y/o caracteres especiales, y la longitud. Si el usuario decide no ingresar el programa deberia continuar y darle una contraseña de 16 de longitud con letras y numeros. 
-- Ejercicio __'libreta de direcciones'__: No utilizar la libreria asyncio.windows_events ya que la misma solo funciona en windows
-- Ejercicio __'palindromos'__: El programa no cumple todos los requisitos del ejercicio
-- Corregir los nombres de los archivos, deben tener los nombres especificados en las consignas
-- Evitar usar acentos en los nombres de los archivos, carpetas, nombres de funciones o variables.
+- Ejercicio __'generador de contraseñas'__: El generador debe preguntar al usuario si quiere que la contraseña tenga mayusculas, minusculas, numeros y/o caracteres especiales, y la longitud. Si el usuario decide no ingresar el programa deberia continuar y darle una contraseña de 16 de longitud con letras y numeros.
+- Ejercicio __'libreta de direcciones'__: No usar los inputs como valores en el writerow, ponerlos en una variable y luego usar esas variables como valores de las claves. La fecha se debe generar automaticamente con la libreria datetime, no debe solicitarsela al usuario.
+- Ejercicio __'palindromos'__: Debe imprimir tambien el total de palabras ingresadas (cantidad de palindromos + cantidad de no palindromos).
+- Evitar usar espacios en los nombres de los archivos, carpetas, nombres de funciones o variables.

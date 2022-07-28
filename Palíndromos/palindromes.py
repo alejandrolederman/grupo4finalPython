@@ -10,6 +10,7 @@ while a!="salir":
         
     else:
             if a=="salir":
+             # Falta imprimir el total de palabras ingresadas (cantidad de palindromos + cantidad de no palindromos)
              print(f"Usted ingresó {len(lista_si_palin)} palabras palindromes y éste es el listado: {lista_si_palin}")
              print(f"Usted ingresó {len(lista_no_palin)} palabras NO palindromes y éste es el listado: {lista_no_palin}")
         
