@@ -53,7 +53,7 @@ registro).
 
 1. Alejandro Lederman
 2. Silvia Juejati
-3. Jacobo
+3. Jacobo Sakowicz
 4. Marcelo Levit
 
 # Correcciones
