@@ -40,7 +40,13 @@ if quiere_mayus!="s" and quiere_minus!="s" and quiere_numer!="s" and quiere_espe
 
 else:
     print("")
-    longitud=int(input("Ingrese la longitud que desea para su contraseña: ")) # solo si el usuario eligio algun tipo de simbolo,
+    longitud=0
+    while longitud<8:
+            try:                                  # verifico minimo de contrase;a y evitar errores si ingresan letras o decimales.
+              longitud=int(input("Ingrese la longitud de su contraseña <mínimo 8 caracteres>: "))
+            except: 
+              print("No es posible ingresar letras ni números con decimales")
+                                              # solo si el usuario eligio algun tipo de simbolo,
     print("")                                                                 # entonces le pedimos la longitud de la contraseña 
     print("Su contraseña es:")
     for i in range(0,longitud):
