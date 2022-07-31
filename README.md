@@ -58,7 +58,8 @@ registro).
 
 # Correcciones
 
-- Ejercicio __'generador de contraseñas'__: El generador debe preguntar al usuario si quiere que la contraseña tenga mayusculas, minusculas, numeros y/o caracteres especiales, y la longitud. Si el usuario decide no ingresar el programa deberia continuar y darle una contraseña de 16 de longitud con letras y numeros.
-- Ejercicio __'libreta de direcciones'__: No usar los inputs como valores en el writerow, ponerlos en una variable y luego usar esas variables como valores de las claves. La fecha se debe generar automaticamente con la libreria datetime, no debe solicitarsela al usuario.
-- Ejercicio __'palindromos'__: Debe imprimir tambien el total de palabras ingresadas (cantidad de palindromos + cantidad de no palindromos).
-- Evitar usar espacios en los nombres de los archivos, carpetas, nombres de funciones o variables.
+- Ejercicio __'generador de contraseñas'__: La contraseña generada no deberia tener espacios, ya que el espacio es un caracter y no esta contemplado en el enunciado del ejercicio. Por ejemplo, su codigo genera la contraseña "X M J Z I B C T E Q", y deberia generar la contraseña "XMJZIBCTEQ". Buen uso del try...catch
+
+- Ejercicio __'libreta de direcciones'__: No usar los inputs como valores en el writerow, ponerlos en una variable y luego usar esas variables como valores de las claves. La fecha se debe generar automaticamente con la libreria datetime, no debe solicitarsela al usuario. (No realizaron correcciones solicitadas)
+
+- Evitar usar espacios en los nombres de los archivos/carpetas. Por ejemplo, la carpeta "Contador de Palabras", deberia nombrarse "ContadorDePalabras" o "contador_de_palabras". (se se realizaron las correcciones solicitadas).
