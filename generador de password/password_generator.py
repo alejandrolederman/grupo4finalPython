@@ -1,5 +1,6 @@
 import string, random
 
+
 mayus=[]                    # defino las listas de acuerdo a si son mayusculas.
 minus=[]                    # minusculas, numericas o de caracteres especiales
 numer=[]
@@ -35,8 +36,9 @@ if quiere_mayus!="s" and quiere_minus!="s" and quiere_numer!="s" and quiere_espe
     for i in range(0,16):
         lista_deseada=mayus+minus+numer                                 # segun la consigan, esta contraseña automatica NO incluye 
         palabra=random.choice(lista_deseada)                            # caracteres especiales                                
-        print(palabra,end=" ")                                          # el comando end=" " imprime un caracter al lado del otro
-                                                                        #dejando, o no, espacio, de acuerdo al espacio entre comillas
+        print(palabra,end="")                                          # el comando end=" " imprime un caracter al lado del otro
+                                                                     #dejando, o no, espacio, de acuerdo al espacio entre comillas
+
 
 else:
     print("")
@@ -65,4 +67,4 @@ else:
 
 
         palabra=random.choice(lista_deseada)                                # aca se generan los valores random y se van imprimiendo
-        print(palabra,end=" ")
+        print(palabra,end="")
